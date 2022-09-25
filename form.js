@@ -1,11 +1,14 @@
 // user input - includes validation
+import React from 'react';  
+
 function TodoForm({addTodo}){
   const [value,setValue] = React.useState('');
+
   
   const handleSubmit = e => {
     e.preventDefault();
     if(!value) return;
-    addTodo(value);
+    addTodo(value + " (new)");
     setValue('');
   }
 
@@ -20,3 +23,5 @@ function TodoForm({addTodo}){
     </form>
   )
 }
+
+export default TodoForm;
