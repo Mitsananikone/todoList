@@ -16,13 +16,10 @@ code {
 }
 
 .app {
-  margin-top: 50px;
-  border: 2px solid rgb(18, 18, 219);
   box-shadow: 1px 1px 1px rgba(0,0,0, 0.35);
-  border-radius: 10px;
   background: #209cee;
   padding: 30px;
-  height: auto;
+  height: 100vh;
 }
 
 
